@@ -27,7 +27,7 @@ class ChangeTextTest {
     private lateinit var device: UiDevice
     private val textToSet = "Netology"
     private val emptyText = " "
-    private val defText = "Привет, UiAutomator!"
+    private val defText = "Hello UiAutomator!"
 
 
     private fun waitForPackage(packageName: String) {
